@@ -1,0 +1,23 @@
+{
+  "id": "dd8f0489-91f5-43e1-bb6c-e7d852f4eef3",
+  "name": "Bookshelf 1.0",
+  "publisher": "Cloud Ready Software",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
