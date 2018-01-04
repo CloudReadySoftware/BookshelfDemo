@@ -31,7 +31,8 @@ page 50101 BookList
             action(ExportImport)
             {
                 CaptionML = ENU='Export & Import';
-                RunObject = xmlport ExportBook;
+                ApplicationArea = All;
+                RunObject = xmlport ExportBook;        
             }
         }
 
