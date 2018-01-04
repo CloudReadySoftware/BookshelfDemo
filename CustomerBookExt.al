@@ -8,4 +8,10 @@ tableextension 50100 CustomerBookExtension extends Customer
             TableRelation = Book;
         }
     }
+
+    trigger OnAfterInsert()
+    begin
+        Name := 'John Doe';
+        Message('OnAfterInsert from table');
+    end;
 }
