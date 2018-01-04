@@ -11,12 +11,12 @@ pageextension 50102 CustomerListExt extends "Customer List"
         {
             action(DotNetDemo)
             {
-                CaptionML = ENU='.Net Demo';
+                Caption ='.Net Demo';
                 RunObject = codeunit DotNetWrappers;
             }
         }
     }
     
     var
-        myInt : Integer;
+        Text001: Label 'Hello There', Comment='Just a text for demo-ing labels', MaxLength=000, Locked=false;
 }

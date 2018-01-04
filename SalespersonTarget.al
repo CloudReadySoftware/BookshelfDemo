@@ -17,7 +17,7 @@ page 50110 SalespersonTarget
 {
     PageType = Card;
     SourceTable = "Salesperson/Purchaser";
-    CaptionML = ENU='Salesperson Target';
+    Caption ='Salesperson Target';
     InsertAllowed = false;
     DeleteAllowed = false;
 

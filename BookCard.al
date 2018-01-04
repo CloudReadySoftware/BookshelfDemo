@@ -9,7 +9,7 @@ page 50100 BookCard
         {
             group(General)
             {
-                CaptionML = ENU='General';
+                Caption ='General';
                 field("No.";"No.") {
                     ApplicationArea = All;
                 }
@@ -19,7 +19,7 @@ page 50100 BookCard
             }
             group(Details)
             {
-                CaptionML = ENU='Details';
+                Caption ='Details';
                 field(Author;Author) {
                     ApplicationArea = All;
                 }

@@ -11,7 +11,7 @@ pageextension 50110 SalespersonCardExt extends "Salesperson/Purchaser Card"
         {
             action(SalespersonTarget)
             {
-                CaptionML = ENU='Sales Target';
+                Caption ='Sales Target';
                 RunObject = page SalespersonTarget;
                 RunPageOnRec = true;
                 Image = Sales;

@@ -30,7 +30,7 @@ page 50101 BookList
         {
             action(ExportImport)
             {
-                CaptionML = ENU='Export & Import';
+                Caption ='Export & Import';
                 ApplicationArea = All;
                 RunObject = xmlport ExportBook;        
             }
