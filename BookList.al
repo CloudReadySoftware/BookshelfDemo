@@ -23,4 +23,20 @@ page 50101 BookList
             }
         }
     }
+
+    actions
+    {
+        area(Reporting)
+        {
+            action(BookReport)
+            {
+                image = Print;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                ApplicationArea = All;
+                RunObject = report BookReport;                
+            }
+        }
+    }
 }
