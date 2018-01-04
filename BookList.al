@@ -11,9 +11,15 @@ page 50101 BookList
         {
             repeater("Repeater")
             {
-                field("No.";"No.") {}
-                field(Title;Title) {}
-                field(Author;Author) {}
+                field("No.";"No.") {
+                    ApplicationArea = All;
+                }
+                field(Title;Title) {
+                    ApplicationArea = All;
+                }
+                field(Author;Author) {
+                    ApplicationArea = All;
+                }
             }
         }
     }
@@ -28,6 +34,18 @@ page 50101 BookList
                 RunObject = xmlport ExportBook;
             }
         }
-    }
 
+        area(Reporting)
+        {
+            action(BookReport)
+            {
+                image = Print;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                ApplicationArea = All;
+                RunObject = report BookReport;                
+            }
+        }
+    }
 }

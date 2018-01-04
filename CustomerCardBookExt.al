@@ -4,7 +4,9 @@ pageextension 50100 CustomerCardBookExtension extends "Customer Card"
     {
         addlast(General)
         {
-            field(FavoriteBook;"Favorite Book No.") {}
+            field(FavoriteBook;"Favorite Book No.") {
+                ApplicationArea = All;
+            }
         }
     }
 }
