@@ -5,7 +5,6 @@
   "brief": "",
   "description": "",
   "version": "1.0.0.0",
-  "compatibilityId": "1.0.0.0",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -19,5 +18,9 @@
   "idRange": {
     "from": 50100,
     "to": 50149
-  }
+  },
+  "showMyCode": true,
+  "features": [
+    "TranslationFile"
+  ]
 }
