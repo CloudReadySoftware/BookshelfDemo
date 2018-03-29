@@ -6,23 +6,23 @@ table 50100 Book
     {
         field(1;"No.";Code[20])
         {
-            CaptionML = ENU='No.';
+            Caption = 'No.';
         }
         field(2;Title;Text[50])
         {
-            CaptionML = ENU='Title';
+            Caption = 'Title';
         }
         field(3;Author;Text[50])
         {
-            CaptionML = ENU='Author';
+            Caption = 'Author';
         }
         field(4;Hardcover;Boolean)
         {
-            CaptionML = ENU='Hardcover';
+            Caption = 'Hardcover';
         }
         field(5;"Page Count";Integer)
         {
-            CaptionML = ENU='Page Count';
+            Caption = 'Page Count';
         }
     }
 

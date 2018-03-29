@@ -4,20 +4,23 @@ page 50101 BookList
     CardPageId = 50100;
     SourceTable = Book;
     Editable = false;
-    
+
     layout
     {
         area(content)
         {
             repeater("Repeater")
             {
-                field("No.";"No.") {
+                field("No."; "No.")
+                {
                     ApplicationArea = All;
                 }
-                field(Title;Title) {
+                field(Title; Title)
+                {
                     ApplicationArea = All;
                 }
-                field(Author;Author) {
+                field(Author; Author)
+                {
                     ApplicationArea = All;
                 }
             }
