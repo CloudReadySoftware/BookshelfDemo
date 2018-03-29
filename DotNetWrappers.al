@@ -39,11 +39,12 @@ codeunit 50101 DotNetWrappers
     begin
         Clear(counter);
 
+        //Count Per Character
         for i := 1 to StrLen(customerName) do begin
             if counter.Get(customerName[i],c) then
-                counter.Set(customerName[i], c + 1)
+                counter.Set(customerName[i], c + 1) //Add 1
             else
-                counter.Add(customerName[i], 1);
+                counter.Add(customerName[i], 1); //set to 1
         end;
     end;
 
