@@ -28,6 +28,16 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table:Book - Field:Page Count</note>
         </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page:BookCard - Control:General</note>
+        </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page:BookCard - Control:Details</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3969279712 - Field 150268382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Favorite Book No.</source>
           <note from="Developer" annotates="general" priority="2" />
