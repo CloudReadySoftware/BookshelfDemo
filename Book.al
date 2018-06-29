@@ -24,6 +24,7 @@ table 50100 Book
         {
             CaptionML = ENU='Page Count';
         }
+        field(6;Publisher;Text[50]) {}
     }
 
     keys
