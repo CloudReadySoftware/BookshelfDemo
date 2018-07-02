@@ -10,21 +10,24 @@ table 50100 Book
         }
         field(2;Title;Text[50])
         {
-            CaptionML = ENU='Title';
+            Caption='Title';
         }
         field(3;Author;Text[50])
         {
-            CaptionML = ENU='Author';
+            Caption='Author';
         }
         field(4;Hardcover;Boolean)
         {
-            CaptionML = ENU='Hardcover';
+            Caption='Hardcover';
         }
         field(5;"Page Count";Integer)
         {
-            CaptionML = ENU='Page Count';
+            Caption='Page Count';
         }
-        field(6;Publisher;Text[50]) {}
+        field(6;Publisher;Text[50]) 
+        {
+            Caption = 'Publisher';
+        }
     }
 
     keys
