@@ -28,6 +28,10 @@ table 50100 Book
         {
             Caption = 'Publisher';
         }
+        field(7;"Publishing Date";Date)
+        {
+            Caption='Publishing Date';
+        }
     }
 
     keys
