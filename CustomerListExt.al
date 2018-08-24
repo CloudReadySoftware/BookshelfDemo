@@ -11,6 +11,7 @@ pageextension 50102 CustomerListExt extends "Customer List"
         {
             action(DotNetDemo)
             {
+                ApplicationArea = All;
                 Caption='.Net Demo';
                 RunObject = codeunit DotNetWrappers;
             }
