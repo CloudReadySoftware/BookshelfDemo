@@ -32,6 +32,10 @@ table 50100 Book
         {
             Caption='Publishing Date';
         }
+        field(8;Genre;Text[50])
+        {
+            Caption = 'Genre';
+        }
     }
 
     keys
