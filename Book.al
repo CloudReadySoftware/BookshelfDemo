@@ -36,6 +36,10 @@ table 50100 Book
         {
             Caption = 'Genre';
         }
+        field(9;ISBN;Text[30])
+        {
+            Caption = 'ISBN';
+        }
     }
 
     keys
