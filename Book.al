@@ -40,6 +40,10 @@ table 50100 Book
         {
             Caption = 'ISBN';
         }
+        field(10;Category;Text[50])
+        {
+            
+        }
     }
 
     keys
