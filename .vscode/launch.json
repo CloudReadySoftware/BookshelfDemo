@@ -5,7 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "http://navserver",
+            "server": "http://bcsandbox",
             "serverInstance": "NAV",
             "tenant": "",
             "authentication": "UserPassword",
