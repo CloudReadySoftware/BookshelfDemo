@@ -9,24 +9,33 @@ page 50100 BookCard
         {
             group(General)
             {
-                CaptionML = ENU='General';
-                field("No.";"No.") {
+                CaptionML = ENU = 'General';
+                field("No."; "No.")
+                {
                     ApplicationArea = All;
                 }
-                field(Title;Title) {
+                field(Title; Title)
+                {
                     ApplicationArea = All;
                 }
             }
             group(Details)
             {
-                CaptionML = ENU='Details';
-                field(Author;Author) {
+                CaptionML = ENU = 'Details';
+                field(Author; Author)
+                {
                     ApplicationArea = All;
                 }
-                field(Hardcover;Hardcover) {
+                field(Hardcover; Hardcover)
+                {
                     ApplicationArea = All;
                 }
-                field("Page Count";"Page Count") {
+                field("Page Count"; "Page Count")
+                {
+                    ApplicationArea = All;
+                }
+                field("Sales Price"; "Sales Price")
+                {
                     ApplicationArea = All;
                 }
             }
