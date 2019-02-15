@@ -46,6 +46,7 @@ table 50100 Book
         }
         field(11; Shelf; Code[20]) { }
         field(12; "Sales Price"; Decimal) { }
+        field(13; "Royalty Amount"; Decimal) { }
     }
 
     keys
